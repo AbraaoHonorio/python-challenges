@@ -1,0 +1,31 @@
+{
+  "plugins": [
+    "bookPaymentPlugin",
+    "membershipPaymentPlugin",
+    "membershipUpgradePaymentPlugin",
+    "physicalPaymentPlugin",
+    "videoPaymentPlugin"
+  ],
+  "payments": [
+    {
+      "type": "book",
+      "name": "bookPaymentPlugin"
+    },
+    {
+      "type": "membership",
+      "name": "membershipPaymentPlugin"
+    },
+    {
+      "type": "membership_upgrade",
+      "name": "membershipUpgradePaymentPlugin"
+    },
+    {
+      "type": "physical",
+      "name": "physicalPaymentPlugin"
+    },
+    {
+      "type": "video",
+      "name": "videoPaymentPlugin"
+    }
+  ]
+}
